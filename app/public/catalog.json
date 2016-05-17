@@ -7,9 +7,9 @@
         "price": 1540,
         "inStock": true,
         "rating": 1,
-        "imageUrl": "http://s7d5.scene7.com/is/image/Teavana/32664_d?$cimg$",
+        "imageUrl": "teaimages/gyokuro.png",
         "__v": 0,
-        "categories": [ "dark", "cold"]
+        "categories": [ "green", "japanese"]
     },
 
     {
@@ -20,9 +20,9 @@
         "price": 7348,
         "inStock": true,
         "rating": 2,
-        "imageUrl": "http://s7d5.scene7.com/is/image/Teavana/32303_d?$cimg$",
+        "imageUrl": "teaimages/sencha.jpg",
         "__v": 0,
-        "categories": ["awesome"]
+        "categories": ["green", "japanese"]
     },
     {
         "_id": "55c8ee82152165d244b98302",
@@ -86,8 +86,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98307",
-        "name": "An Cha",
-        "flavorNotes": "mushroom, earth, cool",
+        "name": "Golden Monkey",
+        "flavorNotes": "sweet, round, complex",
         "caffeineScale": 122,
         "price": 6003,
         "inStock": true,
