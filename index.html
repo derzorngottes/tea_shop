@@ -46,8 +46,8 @@
       <div class='col-md-6 col-md-offset-2'>
         <form action='submit'>
           Search by category:
-          <select>
-            <option name='tea'>Tea</option>
+          <select ng-model='userCat'>
+            <option ng-repeat='cat in teaCats' value='{{cat}}'>{{cat | uppercase}}</option>
           </select>
 
           Search by name:
