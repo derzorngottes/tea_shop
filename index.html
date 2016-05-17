@@ -41,24 +41,6 @@
     <!-- Padding -->
     <div class='row paddingRow'><hr></div>
 
-    <!-- Search Form -->
-    <div class='row'>
-      <div class='col-md-6 col-md-offset-2'>
-        <form action='submit'>
-          Search by category:
-          <select ng-model='userCat'>
-            <option ng-repeat='cat in teaCats' value='{{cat}}'>{{cat | uppercase}}</option>
-          </select>
-
-          Search by name:
-          <input type='text'>
-        </form>
-      </div>
-    </div>
-
-    <!-- Padding -->
-    <div class='row paddingRow'></div>
-
     <!-- Dynamic Content / Teas -->
     <div ng-view></div>
 

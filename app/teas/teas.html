@@ -1,4 +1,18 @@
 <div class='teaContainer'>
+  <div class='row'>
+    <div class='col-md-6 col-md-offset-2'>
+      <form action='submit'>
+        Search by category:
+        <select ng-model='vm.userCat'>
+          <option ng-repeat='cat in teas.teaCats' value='{{cat}}'>{{cat}}</option>
+        </select>
+
+        Search by name:
+        <input type='text'>
+      </form>
+    </div>
+  </div>
+
   <div class='row' ng-repeat='tea in teas.teas'>
     <div class='col-md-6 col-md-offset-2'>
       <hr>
