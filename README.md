@@ -1,4 +1,4 @@
-## KosumosuTeashop ##
+## Kosumosu Teashop ##
 
 This app demonstrates AngularJS as used to build a shopping cart
 for a teashop website.
