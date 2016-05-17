@@ -1,11 +1,13 @@
 <div class='teaContainer'>
   <div class='row' ng-repeat='tea in teas.teas'>
     <div class='col-md-8 col-md-offset-2'>
-      <p>Nice tea!</p>
       <p>{{ tea }}</p>
       <hr>
       <p>{{ tea.name }}</p>
-      <p></p>
+      <p>flavor notes: {{ tea.flavorNotes }}</p>
+      <p>{{ tea.price | currency }}</p>
+      <p ng-show='!{{tea.inStock}}'>{{ tea.inStock }}</p>
+      <p>rating: {{ tea.rating }}</p>
     </div>
   </div>
 </div>
