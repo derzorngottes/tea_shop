@@ -1,16 +1,16 @@
 <div class='teaContainer'>
   <div class='row' ng-repeat='tea in teas.teas'>
     <div class='col-md-6 col-md-offset-2'>
-      <p>{{ tea }}</p>
       <hr>
-      <p>{{ tea.name }}</p>
+      <p><strong>{{ tea.name }}</strong></p>
       <p>flavor notes: {{ tea.flavorNotes }}</p>
       <p>{{ tea.price | currency }}</p>
       <p ng-show='!{{tea.inStock}}'>{{ tea.inStock }}</p>
       <p>rating: {{ tea.rating }}</p>
     </div>
     <div class='col-md-2'>
-      <img ng-src='{{tea.imageUrl}}'>
+      <hr>
+      <img ng-src='{{tea.imageUrl}}' width='200' />
     </div>
   </div>
 </div>
