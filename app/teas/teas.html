@@ -1,19 +1,24 @@
 <div class='teaContainer'>
+
+  <!-- Search options -->
   <div class='row'>
     <div class='col-md-6 col-md-offset-2'>
-      <form action='submit'>
-        Search by category:
-        <select ng-model='vm.userCat'>
+
+        Refine by category:
+        <select ng-model='teas.userCat'>
           <option ng-repeat='cat in teas.teaCats' value='{{cat}}'>{{cat}}</option>
         </select>
 
         Search by name:
         <input type='text'>
-      </form>
+
     </div>
   </div>
 
+  <!-- Teas -->
   <div class='row' ng-repeat='tea in teas.teas'>
+
+    <span ng-show='teas.userCat == "all" || (tea.categories.indexOf(teas.userCat)) != "-1"'>
     <div class='col-md-6 col-md-offset-2'>
       <hr>
       <p><strong>{{ tea.name }}</strong></p>
@@ -22,9 +27,12 @@
       <p ng-show='!{{tea.inStock}}'>{{ tea.inStock }}</p>
       <p>rating: {{ tea.rating }}</p>
     </div>
+
     <div class='col-md-2'>
       <hr>
       <img ng-src='{{tea.imageUrl}}' width='200' />
     </div>
+    </span>
   </div>
+
 </div>

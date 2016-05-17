@@ -10,25 +10,20 @@
   function Teas(TeaService) {
     var vm = this;
 
-    // vm.cats = [
-    //   { '1': 'indian'},
-    //   { '2': 'japanese'},
-    //   { '3': 'chinese'},
-    //   { '4': 'green'},
-    //   { '5': 'black'},
-    //   { '6': 'white'},
-    //   { '7': 'rooibos'}
-    // ];
-
+    vm.userCat = 'all';
     vm.teaCats = [
+      'all',
       'indian',
       'japanese',
       'chinese',
       'green',
       'black',
       'white',
+      'oolong',
       'rooibos'
     ];
+
+    //vm.filterCats = function()
 
     TeaService.getTeas().then(function(teas) {
       vm.teas = teas.data;
