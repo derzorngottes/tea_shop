@@ -20,7 +20,7 @@
         controller: 'Tea'
       })
       .otherwise({
-        templateUrl: 'index.html',
+        templateUrl: 'app/teas/teas.html',
         controllerAs: 'teas',
         controller: 'Teas'
       });
