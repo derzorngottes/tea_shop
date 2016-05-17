@@ -1,8 +1,8 @@
 [
     {
         "_id": "55c8ee82152165d244b98300",
-        "name": "Bayard stew",
-        "ingredients": "concentrated gluten, jewelry, dill, beetle nut, toast",
+        "name": "Gyokuro Superior",
+        "flavorNotes": "delicate, slightly sweet",
         "caffeineScale": 244,
         "price": 1540,
         "inStock": true,
@@ -14,8 +14,8 @@
 
     {
         "_id": "55c8ee82152165d244b98301",
-        "name": "Incompactness syrup",
-        "ingredients": "fennel, nutmeg leaves, parsley, cream of 'cream of cream', blarney",
+        "name": "Kabuse Sencha",
+        "flavorNotes": "creamy, slightly grassy, clean finish",
         "caffeineScale": 49,
         "price": 7348,
         "inStock": true,
@@ -26,8 +26,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98302",
-        "name": "Flexner white tea",
-        "ingredients": "hot sauce, iron, beetle nut, fresco, blarney, raw mashed potato",
+        "name": "Matcha",
+        "flavorNotes": "brown rice, toasty, creamy, soothing",
         "caffeineScale": 38,
         "price": 4991,
         "inStock": true,
@@ -38,8 +38,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98303",
-        "name": "Pressor leaf",
-        "ingredients": "purina chow, flavorings, pepper, acorns, quality tallow, old sock, bay leaf",
+        "name": "Cloud Forest",
+        "flavorNotes": "wildflower, fruits, sweet, delicate",
         "caffeineScale": 153,
         "price": 5496,
         "inStock": true,
@@ -50,8 +50,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98304",
-        "name": "Flexner veggie tea",
-        "ingredients": "cream of tartar, eggplant, cake, deer antler",
+        "name": "Lao Cha Tou",
+        "flavorNotes": "smooth, clean, earthy, full-bodied",
         "caffeineScale": 181,
         "price": 2445,
         "inStock": true,
@@ -62,8 +62,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98305",
-        "name": "Topflighter malt",
-        "ingredients": "botox, toast, cream of 'cream of 'cream of cream'', kitchen scraps, beef, aligator tongue, lawn clippings",
+        "name": "Ceylon",
+        "flavorNotes": "chocolate, aromatic, lingering sweetness",
         "caffeineScale": 241,
         "price": 4486,
         "inStock": true,
@@ -74,8 +74,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98306",
-        "name": "Cooking mix",
-        "ingredients": "flavorings, roasted mushrooms, toast, tumeric",
+        "name": "Silk Oolong",
+        "flavorNotes": "mild, smooth, creamy, subtle",
         "caffeineScale": 230,
         "price": 6973,
         "inStock": true,
@@ -86,8 +86,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98307",
-        "name": "Cooking stew",
-        "ingredients": "eggplant",
+        "name": "An Cha",
+        "flavorNotes": "mushroom, earth, cool",
         "caffeineScale": 122,
         "price": 6003,
         "inStock": true,
@@ -98,8 +98,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98308",
-        "name": "Prevenient herb tea",
-        "ingredients": "cream of tartar, cream of cream, kitchen scraps, flavorings",
+        "name": "Rooibos Mint",
+        "flavorNotes": "peppermint, earthy, smooth, invigorating",
         "caffeineScale": 196,
         "price": 1374,
         "inStock": true,
@@ -110,8 +110,8 @@
     },
     {
         "_id": "55c8ee82152165d244b98309",
-        "name": "Angular mix",
-        "ingredients": "hot sauce, lawn clippings, fennel, parsley, quinine",
+        "name": "Gunpowder",
+        "flavorNotes": "potent, smoky",
         "caffeineScale": 196,
         "price": 4158,
         "inStock": true,
