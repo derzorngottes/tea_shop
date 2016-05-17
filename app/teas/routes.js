@@ -10,7 +10,7 @@
   function config($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'index.html',
+        templateUrl: 'app/teas/teas.html',
         controllerAs: 'teas',
         controller: 'Teas'
       })

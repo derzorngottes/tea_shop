@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('teaApp')
+    .module('teashopApp')
     .controller('Teas', Teas);
 
   Teas.$inject = ['TeaService'];
