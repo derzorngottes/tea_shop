@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app='teashopApp'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Genmaicha Dreams</title>
+    <base href='/'>
+
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='app/public/style.css'>
+
+  </head>
+  <body>
+
+    <!-- Header, Navbar -->
+    <div class='navbar navbar-default navbar-fixed-top'>
+      <a class='navbar-brand' href='/'>G</a>
+      <ul class='nav navbar-nav'>
+        <li class='nav-item'>
+          <a class='nav-link' ng-href='/home'>Home</a>
+        </li>
+        <li class='nav-link'>
+          <a class='nav-link' ng-href='/about'>About</a>
+        </li>
+        <li class='nav-link'>
+          <a class='nav-link' ng-href='/contact'>Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-8 col-md-offset-2'>
+          <h2>Welcome to Genmaicha Dreams</h2>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Dynamic Content / Teas -->
+    <div ng-view></div>
+
+    <!-- Angular -->
+    <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.js'></script>
+    <script src='app/app.js'></script>
+
+    <!-- Teas Feature/ -->
+    <script src='app/teas/route.js'></script>
+    <script src='app/teas/movies.service.js'></script>
+    <script src='app/teas/Teas.controller.js'></script>
+    <script src='app/teas/Tea.controller.js'></script>
+
+  </body>
+</html>
