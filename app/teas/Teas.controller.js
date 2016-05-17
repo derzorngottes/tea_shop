@@ -10,12 +10,11 @@
   function Teas(TeaService) {
     var vm = this;
 
-    vm.getTeas = function() {
-      TeaService.getTeas().then(function(teas) {
-        vm.teas = teas.data;
-      }).catch(function(err) {
-        vm.errors = err;
-      });
-    }
+    TeaService.getTeas().then(function(teas) {
+      vm.teas = teas.data;
+    })
+    .catch(function(err) {
+      vm.errors = err;
+    });
   }
 })();

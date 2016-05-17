@@ -10,7 +10,7 @@
   function TeaService($http) {
     return {
       getTeas: function() {
-        return $http.get('teas.json')
+        return $http.get('app/public/catalog.json')
       },
       getTea: function(id) {
         return $http.get('teas.json' + id)
